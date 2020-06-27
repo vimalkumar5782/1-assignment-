@@ -1,0 +1,7 @@
+def v(str1):
+    c= str1[0]
+    str1= str1.replace(c,'$')
+    str1= c+str1[1:]
+    
+    return str1
+print(v('restart'))
